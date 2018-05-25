@@ -1,0 +1,187 @@
+/* This is the default style Sheet for Granuloshop.  www.granuloshop.com */
+/* Font general */
+FONT {font-family: Arial, Helvetica, sans-serif; font-size: 12px;}
+/* Body general */
+/* modele de style="font: normal normal small Arial, Helvetica, sans serif;" bgcolor=FFFFFF link=FF0000 text=000000 vlink=990033 alink=FF0000  */
+BODY {font-family: Arial, Helvetica, sans-serif;font-size: small;font-weight:normal;font-style: normal;font-variant:normal;background-color:#FFFFFF;color:#000000;}
+
+/* Liens (general) - pour l'instant pas au point...*/
+/* A {color: FF0000;} */
+/* A:link {color: FF0000;} */
+/* A:visited {color: 990033;} */
+/* A:active {color: FF0000;} */
+
+/* Tous les paragraphes sont justifies */
+p {text-align: justify;}
+/* P::first-letter { font-size: 200%; font-style: italic;font-weight: bold; float: left;} */
+   
+/* justification */
+.j {text-align: justify;} 
+
+/* centrage de texte */
+.c {text-align: center;} 
+
+/* centrage de texte texte en petit*/
+.cs {text-align: center;font-size:x-small;display:inline}
+
+/*  texte en petit a droite*/
+.ds {float: right;font-size:x-small;}
+
+/* texte en petit*/
+.un {font-size:x-small;}
+
+/* texte en grand*/
+.ung {font-size:large;}
+/* texte en medium*/
+.unm {font-size:medium;}
+/* texte en normal*/
+.uns {font-size:small;}
+
+/* texte en petit justifie*/
+.jp {font-size: x-small;text-align: justify;}
+
+/* ***************  LIENS  ******************
+.g{color:#0000FF;background-color: transparent;} 
+.g:visited{color:#551a8b;background-color: transparent} 
+.g:active{color:#FF0000;background-color: transparent}
+.g:hover{color:#FF0000;background-color: transparent;text-decoration:underline overline}
+
+/* lien recommande */
+.r {font-size:x-small;color:#000000;text-decoration:underline;background-color: transparent;}
+.r:hover{color:#FF0000;text-decoration:underline overline;background-color: transparent;}
+
+/* lien bleute recommande */
+.rb {font-size:x-small;color:#0057A8;text-decoration:underline;background-color: transparent;}
+.rb:hover{color:#FF0000;text-decoration:underline overline;background-color: transparent;}
+
+/* lien orange */
+.po {font-size:x-small;color:#FF6600;text-decoration:underline;background-color: transparent;font-weight:bold;}
+.po:hover{color:#FF0000;text-decoration:underline overline;background-color: transparent;font-weight:bold;}
+
+
+/* cartouche de recommandation gauche */
+.rl {float:left;clear:both;border:solid;border-width:1px;border-color:#000000;margin: 10px 5px 10px 0px;font-size:x-small;}
+
+/* cartouche de recommandation droit avec centrage*/
+.rlc {float:right;clear:both;border:solid;border-width:1px;border-color:#000000;margin: 10px 0px 10px 15px;font-size:x-small;text-align: center;}
+
+
+/* cartouche de recommandation droit */
+.rr {float:right;clear:both;border:solid;border-width:1px;border-color:#000000;margin: 10px 0px 10px 5px;}
+
+/* cartouche de lien droit */
+.lr {float:right;clear:both;border:solid;border-top-width:1px;border-bottom-width: 0px;border-left-width:1px;border-right-width:0px;border-color:#000000;margin: 10px 0px 10px 5px;padding:0;}
+
+/* mots cles */
+.mc {font-size:x-small;color:#606060;background-color: transparent;}
+
+/* mots grise a droite */
+.mgr {font-size:x-small;color:#606060;background-color: transparent;text-align: center;text-decoration:none;float:left}
+
+/* lien orange gras avec double surlignage on mouseover */
+.o{font-size:small;font-weight:bold;color:#ff6600;text-decoration:none;background-color:transparent;}
+.o:hover{font-size:small;font-weight:bold;color:#ff6600;text-decoration:underline overline;background-color:transparent;} 
+
+/* lien noir gras sousligne avec double surlignage rouge on mouseover CETTE TAILLE DE FONT EST T ELLE CORRECTE? */
+.nr {font-size:small;font-weight:bold;color:#000000;text-decoration:underline;background-color:transparent;}
+.nr:hover{font-size:small;font-weight:bold;color:#FF0000;text-decoration:underline overline;background-color:transparent;} 
+
+/* lien noir normal avec double surlignage rouge on mouseover */
+.nn {font-size:small;font-weight:normal;color:#000000;text-decoration:none;background-color:transparent;}
+.nn:hover{font-size:small;font-weight:normal;color:#FF0000;text-decoration:underline overline;background-color:transparent;} 
+
+/* lien bleute normal avec passage au rouge on mouseover */
+.t {font-size: small;color:#0057A8;text-decoration:underline;background-color:transparent;}
+.t:hover {color:#FF0000;text-decoration:underline overline;background-color:transparent;}
+
+.ri {border:solid;border-top-width:1px;border-bottom-width:1px;border-left-width:1px;border-right-width:0px;border-color: #000000;background-color: #EFEFEF;color: #000000;}
+.rk {border:solid;border-top-width:1px;border-bottom-width:1px;border-left-width:0px;border-right-width:0px;border-color: #000000;background-color: #EFEFEF;color: #000000;}
+.rj {border:solid;border-top-width:1px;border-bottom-width:1px;border-left-width:1px;border-right-width:1px;border-color:#000000;background-color: #EFEFEF;color: #000000;}
+.h{border:solid;border-top-width:1px;border-bottom-width:0px;border-left-width:0px;border-right-width:0px;border-color:#0057A8;}
+.l{border:solid;border-top-width:1px;border-bottom-width: 1px;border-left-width:0px;border-right-width:1px;border-color:#000000;background-color: #EFEFEF;color: #000000;}
+
+/* cartouche conseil (bas) */
+.cb{border:solid;border-bottom-width:1px;border-left-width:1px;border-right-width:1px;border-top-width:0px;border-color:#000000;}
+
+/* cartouche conseil (bas) ligne simple*/
+.cbs {border:solid;border-bottom-width:1px;border-left-width:0px;border-right-width:0px;border-top-width:0px;border-color:#000000;}
+
+/* cartouche navigation gris clair (milieu) */
+.cm{border:solid;border-bottom-width:0px;border-left-width:1px;border-right-width:1px;border-top-width:0px;border-color:#000000;background-color:#ebebeb;color: #000000;}
+
+/* cartouche navigation bleu clair (milieu)(FTA) */
+.cmb{border:solid;border-bottom-width:0px;border-left-width:1px;border-right-width:1px;border-top-width:0px;border-color:#000000;background-color:#D3F0F4;color: #000000;}
+
+/* cartouche navigation gris fonce (haut) */
+.ch{border:solid;border-bottom-width:0px;border-left-width:1px;border-right-width:1px;border-top-width:1px;border-color:#000000;background-color:#cccccc;color: #000000;}
+
+/* cartouche navigation bleu fonce (haut)(FTA) */
+.chb{border:solid;border-bottom-width:0px;border-left-width:1px;border-right-width:1px;border-top-width:1px;border-color:#000000;background-color:#ADBFCD;color: #000000;}
+
+/* cartouche navigation gris clair (haut) */
+.chc {border:solid;border-bottom-width:0px;border-left-width:1px;border-right-width:1px;border-top-width:1px;border-color:#000000;background-color:#ebebeb;color: #000000;}
+
+/* cartouche navigation gris clair (complet) */
+.cgcc {border:solid;border-bottom-width:1px;border-left-width:1px;border-right-width:1px;border-top-width:1px;border-color:#000000;background-color:#ebebeb;color: #000000;}
+
+/* marge 10 */
+.md {margin: 10px;}
+
+/* tableau ou image avec bordure simple */
+.tb {border:solid;border-width:1px;border-color:#000000;margin-top: 0px;margin-left: 0px;margin-bottom: 0px;margin-right: 0px;}
+
+/* tableau ou image avec bordure simple rouge et padding*/
+.tbrp {border:solid;border-width:1px;border-color:#990033;margin-top: 0px;margin-left: 0px;margin-bottom: 0px;margin-right: 0px;padding: 5px 5px 5px 5px;}
+
+/* tableau ou image avec bordure simple noire et padding*/
+.tbnp {border:solid;border-width:1px;border-color:#000000;margin-top: 0px;margin-left: 0px;margin-bottom: 0px;margin-right: 0px;padding: 5px 5px 5px 5px;}
+
+/* tableau ou image avec bordure simple placee a droite */
+.tr {float:right;border:solid;border-width:1px;border-color:#000000;margin-left: 15px;margin-bottom: 10px}
+
+/* tableau ou image avec bordure simple placee a droite marge verticale*/
+.td {float:right;border:solid;border-width:1px;border-color:#000000;margin-top: 10px;margin-left: 15px;margin-bottom: 10px}
+
+/* tableau ou image avec bordure simple avec marges verticales , ce style ne marche pas faut-il l'eliminer??*/
+/* .tc {float:center;border:solid;border-width:1px;border-color:#000000;margin-top: 10px;margin-bottom: 10px} */
+
+/* tableau ou image avec bordure simple placee a gauche */
+.tl {float:left;border:solid;border-width:1px;border-color:#000000;margin-right: 15px;margin-bottom: 10px}
+
+/* tableau ou image sans bordure simple placee a gauche */
+.tg {float:left;border:solid;border-width:0px;border-color:#000000;margin-right: 15px;margin-bottom: 10px}
+/* tableau ou image sans bordure simple placee a gauche */
+.tg1 {float:left;border:solid;border-width:0px;border-color:#000000;margin-right: 0px;margin-bottom: 10px}
+/* tableau ou image sans bordure simple placee a droite */
+.tf {float:right;border:solid;border-width:0px;border-color:#000000;margin-left: 15px;margin-bottom: 10px}
+/* tableau ou image sans bordure simple placee a droite */
+.tf1 {float:right;border:solid;border-width:0px;border-color:#000000;margin-left: 15px;margin-bottom: 0px}
+
+/* tableau avecbrodure et centrage et petit texte*/
+.tcs {border:solid;border-width:1px;border-color:#000000;font-size:x-small;text-align: center;}
+
+/* tableau avec bordure gris clair et centrage et petit texte*/
+.tcg {border:solid;border-width:1px;border-color:#ebebeb;font-size:x-small;text-align: center;}
+
+
+/* .h{border:solid;border-top-width:1px;border-bottom-width:0px;border-left-width:0px;border-right-width:0px;border-color:#0057A8} */
+/* .l{border:solid;border-top-width:1px;border-bottom-width: 1px;border-left-width:0px;border-right-width:1px;border-color:#000000;background-color:#EFEFEF} */
+
+/* alignement vertical */
+.vm {vertical-align: middle}
+
+
+/* Tableau (grilles) */
+/* case avec bordure en bas et à droite */
+.gbd {border:solid;border-right-width: 1px;border-left-width:0px;border-top-width:0px; border-bottom-width: 1px;border-color:#000000}
+
+/* case avec bordure en bas */
+.gb {border:solid;border-bottom-width: 1px;border-right-width: 0px;border-left-width:0px;border-top-width:0px;border-color:#000000}
+
+/* case ou tableau avec bordure en haut et à gauche */
+.ghg {border:solid;border-top-width:1px;border-left-width: 1px;border-right-width: 0px;border-bottom-width: 0px;border-color:#000000}
+
+/* encadrement du cartouche de recherche */
+.rt {BORDER: #990033 1px solid;font-size: 8pt}
+/* encadrement du cartouche de recherche */
+.rt10 {BORDER: #990033 1px solid;font-size: 10pt}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<timesheet xmlns="http://www.w3.org/ns/SMIL">
+  <excl timeAction="intrinsic" dur="03:50"
+      mediaSync="#talk" controls="#timeController" navigation="arrows;">
+    <item select="#slide01" begin="00:00"/>
+    <item select="#slide02" begin="00:30"/>
+    <item select="#slide03" begin="01:00"/>
+    <item select="#slide04" begin="01:30"/>
+    <item select="#slide05" begin="02:00"/>
+    <item select="#slide06" begin="02:30"/>
+    <item select="#slide07" begin="03:00"/>
+    <item select="#slide08" begin="03:30"/>
+  </excl>
+</timesheet>
